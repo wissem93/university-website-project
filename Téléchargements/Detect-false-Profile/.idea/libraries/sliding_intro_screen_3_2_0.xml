@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sliding-intro-screen-3.2.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.matthew-tamlin/sliding-intro-screen/3.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.matthew-tamlin/sliding-intro-screen/3.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.matthew-tamlin/sliding-intro-screen/3.2.0/54f74f64a2852c135a6b9cd583498c72e8803e1f/sliding-intro-screen-3.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
