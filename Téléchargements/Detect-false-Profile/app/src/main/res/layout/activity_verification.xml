@@ -1,0 +1,129 @@
+<!-- Copyright (c) Microsoft. All rights reserved. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/layout_background"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="com.example.imen.facebookfalseprofile.ui.FaceVerificationActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="195dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/view_margin"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="177dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+
+            android:padding="10dp">
+
+            <ListView
+                android:id="@+id/list_faces"
+                android:layout_width="176dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+
+                android:layout_weight="0.30"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/view_margin" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="                                "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_0"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:layout_gravity="center_vertical"
+
+                android:background="@drawable/border"
+                 />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                                "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/com_facebook_button_background_color_disabled"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listfalseProfile"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/ButtonStyles"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle"
+            android:onClick="verificationFB"
+            android:paddingTop="5dp"
+            android:text="@string/detect"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>
