@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="activity_horizontal_margin">64dp</dimen>
-    <string name="description">choose how to take the photo</string>
-    <string name="from_fb">From Facebook</string>
-    <string name="share">Share</string>
-</resources>
